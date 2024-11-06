@@ -38,8 +38,8 @@ A Flutter-based application where users can register, log in, and order lunch. T
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/lunch_order_app.git
-   cd lunch_order_app
+   git clone https://github.com/NjengaC/PLP-FINAL-PROJECT.git
+   cd PLP-FINAL-PROJECT/lunch_order_app
 2. **Install Dependencies**:
 
 ```bash
@@ -59,26 +59,45 @@ flutter run -d linux
 ## Usage
 Register: Enter an email and password on the registration page. A success message confirms registration.
 Log In: Log in with the registered credentials (or any credentials for testing). A successful login navigates to the order page.
-Project Structure
+
+## Project Structure
 lib
-├── main.dart               # Entry point of the app
-├── pages                   # App screens
-│   ├── login_page.dart     # Login screen
-│   ├── registration_page.dart # Registration screen
-│   └── order_page.dart     # Order screen after login
-└── services                # Application logic
-    ├── auth_service.dart   # Manages registration and login
-    └── database_helper.dart # Manages database connections
+
+    ├── main.dart                 # Entry point of the app
+
+    ├── pages                     # App screens
+
+    │   ├── login_page.dart     # Login screen
+  
+    │   ├── registration_page.dart # Registration screen
+  
+    │   └── order_page.dart     # Order screen after login
+  
+    └── services                # Application logic
+  
+      ├── auth_service.dart   # Manages registration and login
+      
+      └── database_helper.dart # Manages database connections
 
 # Screens
 Login Page
 Users enter their email and password to log in. Successful login leads to the order page.
 
+![image](https://github.com/user-attachments/assets/db0d9196-85b1-473d-b8b2-5dba7e396bd3)
+
 # Registration Page
 Allows users to register by entering an email and password. Displays a success message upon completion.
 
+
+![image](https://github.com/user-attachments/assets/7f798516-c012-4060-89ad-925cf8ebfd06)
+
 # Order Page
 The main screen users see after logging in, representing the order page.
+![image](https://github.com/user-attachments/assets/e39a9467-2b43-43e4-b179-4d124ba62046)
+
+
+![image](https://github.com/user-attachments/assets/cdc0c4a5-03c5-4350-ae52-206908202a3b)
+
 
 ## How It Works
 - AuthService: Manages user registration and login. For this simulation, database checks are bypassed.
